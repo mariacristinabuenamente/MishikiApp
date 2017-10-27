@@ -1,0 +1,65 @@
+body,div,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+}
+html,body {
+	margin:0;
+	padding:0;
+	height: 100%;
+}
+img { 
+	border:0;
+}
+header{
+	display: block;
+}
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	background:url(mishiki.jpg);
+	font-size: 14px;
+	color: #3a2127;
+}
+a{
+	color: #333;
+	text-decoration: none;
+}
+.container{
+	position: relative;
+	margin-bottom:15px;
+}
+.clr{
+	clear: both;
+}
+.container > header{
+	padding: 20px 20px 20px 20px;
+	position: relative;
+	display: block;
+    text-align: center;
+}
+.container > header h1{
+	position: relative;
+	color: #275973;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 25px;
+	padding: 0px 0px 5px 0px;
+	text-shadow: 0px 1px 1px rgba(255,255,255,0.8);
+}
+.container > header h1 strong{
+	font-family: 'Open Sans Condensed','Arial Narrow', Arial, sans-serif;
+	padding:0px 5px 0px 5px;
+	line-height:35px; 
+	color:#275973;
+	font-size:28px;
+	text-transform: uppercase;
+}
+.container > header h1 span{
+	font-family: 'Alegreya SC', Georgia, serif;
+	font-size: 20px;
+	line-height: 20px;
+	display: block;
+	font-weight: 400;
+	font-style: italic;
+	color:#5a99ba;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+}
